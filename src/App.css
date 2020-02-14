@@ -28,6 +28,29 @@
   color: #61dafb;
 }
 
+.main-bg{
+  background-image: url('./Assets/bg.jpg');
+}
+
+.small-company-name{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.color-white-text{
+  color: #ffffff;
+}
+
+.thin-big-text{
+  font-size: 38px;
+  
+}
+
+.big-heading-text{
+  font-size: 38px;
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

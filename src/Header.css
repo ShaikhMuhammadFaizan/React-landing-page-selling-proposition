@@ -1,0 +1,28 @@
+.header-area{
+    /* width: 80%; */
+    margin-top: 3%;
+}
+
+.supporting-desc-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video-info-text{
+    font-size: 14px;
+}
+
+.video-area{
+    /* background-color: black; */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 3%;
+}
+
+/* .video-player{
+opacity: 1;
+}
+
+.video-info{
+    opacity: 1;
+} */
