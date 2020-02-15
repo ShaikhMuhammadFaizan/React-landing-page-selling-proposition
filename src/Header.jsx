@@ -25,21 +25,21 @@ class Header extends Component {
     };
     return (
       <div className="header-area d-flex justify-content-center align-items-center">
-        <Container className="d-flex justify-content-center align-items-center">
+        <Container className="color-white-text d-flex justify-content-center align-items-center">
           <Col>
-            <p className="color-white-text small-company-name">Webinaringl</p>
-            <p className="color-white-text thin-big-text">YOUR UNIQUE <span className="big-heading-text">SELLING PROPOSITION </span></p>
-            <p className="color-white-text supporting-desc-text">A supporting statement for your value proposition to encourage customers to complete your CTA</p>
+            <p className=" small-company-name">Webinaringl</p>
+            <p className=" thin-big-text">YOUR UNIQUE <span className="big-heading-text">SELLING PROPOSITION </span></p>
+            <p className=" supporting-desc-text">A supporting statement for your value proposition to encourage customers to complete your CTA</p>
             <div className="video-area">
 
               <div className="video-info d-flex justify-content-between align-items-center row text-left">
                 <div className="row d-flex justify-content-between align-items-center row ">
                   <Image src={Calender} style={{ width: '20px', height: '20px' }} />
-                  <p className="color-white-text video-info-text">Thursday, July 22</p>
+                  <p className="video-info-text">Thursday, July 22</p>
                 </div>
                 <div className="row d-flex justify-content-center align-items-center row ">
                   <Image src={Calender} style={{ width: '20px', height: '20px' }} />
-                  <p className="color-white-text video-info-text">6 PM EST</p>
+                  <p className="video-info-text">6 PM EST</p>
                 </div>
               </div>
 
