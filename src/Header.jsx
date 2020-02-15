@@ -14,12 +14,14 @@ class Header extends Component {
   }
 
   render() {
+
     const opts = {
       height: '260',
       width: '100%',
       playerVars: {
         autoplay: 1
       }
+      
     };
     return (
       <div className="header-area d-flex justify-content-center align-items-center">
@@ -30,17 +32,17 @@ class Header extends Component {
             <p className="color-white-text supporting-desc-text">A supporting statement for your value proposition to encourage customers to complete your CTA</p>
             <div className="video-area">
 
-              <div className="video-info d-flex justify-content-center align-items-center row text-left">
-                  <div className="row">
-                    <Image src={Calender} style={{width:'30px', height:'30px'}} />
-                    <p className="color-white-text">Thursday, July 22</p>
-                  </div>
-                  <div className="row">
-                    <Image src={Calender} style={{width:'30px', height:'30px'}}/>
-                    <p className="color-white-text">6 PM EST</p>
-                  </div>
+              <div className="video-info d-flex justify-content-between align-items-center row text-left">
+                <div className="row d-flex justify-content-between align-items-center row ">
+                  <Image src={Calender} style={{ width: '20px', height: '20px' }} />
+                  <p className="color-white-text video-info-text">Thursday, July 22</p>
+                </div>
+                <div className="row d-flex justify-content-center align-items-center row ">
+                  <Image src={Calender} style={{ width: '20px', height: '20px' }} />
+                  <p className="color-white-text video-info-text">6 PM EST</p>
+                </div>
               </div>
-              
+
               <div className="video-player">
                 <YouTube
                   videoId="sX1Y2JMK6g8"
@@ -48,8 +50,12 @@ class Header extends Component {
                   onReady={this._onReady}
                 />
               </div>
-
             </div>
+
+            <div className="see-your-spo-btn-area">
+              <Button className="see-your-spot-btn" variant="danger" size="lg"> Save Your Spot </Button>
+            </div>
+
           </Col>
         </Container>
 

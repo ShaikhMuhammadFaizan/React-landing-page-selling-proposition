@@ -1,5 +1,4 @@
 .header-area{
-    /* width: 80%; */
     margin-top: 3%;
 }
 
@@ -10,19 +9,59 @@
 
 .video-info-text{
     font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-weight: 600;
+}
+.video-info{
+    padding: 0% 3% 0% 3%;
+    width: 50%;
+    margin-left: 3%;
+    margin-left: 3%;
 }
 
 .video-area{
     /* background-color: black; */
-    background: rgba(255, 255, 255, 0.4);
+    margin-top: 5%;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-    padding: 3%;
+    padding: 3% 4% 5% 4%;
 }
 
-/* .video-player{
-opacity: 1;
+.video-player{
+    margin-top: 3%;
 }
 
-.video-info{
-    opacity: 1;
-} */
+.see-your-spo-btn-area{
+    margin: 3% 0% 3% 0%;
+}
+
+.see-your-spot-btn{
+    background-color: #6013c5 !important;
+    padding: 2.5% 7% 2.5% 7%;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 13px 15px 37px -7px rgba(0,0,0,0.80);
+}
+
+.see-your-spot-btn:hover{
+    background-color: #5113ae !important;
+    box-shadow: 13px 15px 37px -7px rgba(0,0,0,0.99);
+}
+
+@media only screen and (max-width: 750px) {
+    .video-info{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .video-info{
+        width: 90%;
+    }
+    .video-area{
+        padding: 5% 6% 6% 6%;
+    }
+}
+
