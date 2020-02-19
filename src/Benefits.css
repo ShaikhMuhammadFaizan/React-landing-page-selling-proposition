@@ -1,7 +1,12 @@
 .benefits-area{
     background-color:#070920 ;
     padding: 4% 3% 4% 3%;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+.benefit-box-area{
+    margin-top: 7%;
 }
 
 .benefits-area-elements{
@@ -12,16 +17,80 @@
     font-weight: bold;
 }
 
+.benefit-heading-text{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.benefit-desc{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.benefit-odd{
+color: #1d1d1f;
+}
+
+.benefit-even{
+    color: #ffffff;
+}
+    
+
+.benefit-num-text-lt-blue{
+    color: #6a8af9;
+}
+
+.benefit-num-text-dr-blue{
+    color: #140b27;
+
+}
+
 .benefit-box{
     width: 25%;
-    height: 40%;
+    height: 35%;
     height: max-content;
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 3%;
+    padding: 1.5%;
 }
 
 .blue-box{
     background-color: #426afd;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .benefit-box{
+        width: 30%;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 770px) {
+    .benefit-box-area{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .benefit-box{
+        width: 48%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .benefit-box-area{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .benefit-box{
+        width: 70%;
+        margin-bottom: 10%;
+        
+    }
 }
