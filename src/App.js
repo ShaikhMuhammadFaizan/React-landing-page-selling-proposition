@@ -3,7 +3,7 @@ import Header from './Header'
 import Benefits from './Benefits'
 import AboutTutor from './AboutTutor'
 import TrustUsArea from './TrustUsArea'
-
+import UniqueSelling from './UniqueSelling'
 
 import './App.css';
 
@@ -16,6 +16,7 @@ class App extends Component {
           <Benefits />
           <AboutTutor />
           <TrustUsArea />
+          <UniqueSelling />
         </div>
       </div>
     );
