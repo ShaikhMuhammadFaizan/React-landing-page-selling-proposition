@@ -1,0 +1,47 @@
+.about-tutor-area{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.tutor-text-margin{
+    margin-top: 10%;
+}
+
+.tutor-img{
+    width: 250px;
+    height: 250px;
+}
+
+.about-tutor-text-area{
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .about-tutor-area{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .tutor-img{
+        width: 200px;
+        height: 200px;
+    }
+    .about-tutor-area{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about-tutor-text-area{
+        margin-top: 5%;
+        text-align: center;
+    }
+    .tutor-text-margin{
+        margin-top: 2%;
+    }
+  
+}

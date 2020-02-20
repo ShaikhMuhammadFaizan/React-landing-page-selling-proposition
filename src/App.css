@@ -42,6 +42,12 @@
   color: #ffffff;
 }
 
+.color-lg-white-text{
+  color: #c7c7c7;
+  line-height: 2;
+  font-weight: 600;
+}
+
 .thin-big-text{
   font-size: 38px;
   
@@ -56,6 +62,7 @@
   font-size: 28px;
   font-weight: 400;
 }
+
 
 @keyframes App-logo-spin {
   from {

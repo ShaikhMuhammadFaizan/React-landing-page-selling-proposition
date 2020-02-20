@@ -1,0 +1,15 @@
+.trust-us-area{
+    background-color:#070920 ;
+    width: 90%;
+    padding: 5% 2% 5% 2%;
+    border-radius: 10px;    
+}
+
+.logos-area{
+    margin-top: 3%;
+}
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
