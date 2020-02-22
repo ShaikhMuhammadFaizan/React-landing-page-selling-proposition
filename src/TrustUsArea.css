@@ -13,3 +13,11 @@
     width: 100px;
     height: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .logos-area{
+       justify-content: center !important;
+       flex-wrap: wrap;
+    }
+    
+}

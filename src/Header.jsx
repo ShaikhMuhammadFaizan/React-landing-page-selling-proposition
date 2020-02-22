@@ -53,7 +53,7 @@ class Header extends Component {
             </div>
 
             <div className="see-your-spo-btn-area">
-              <Button className="see-your-spot-btn" variant="danger" size="lg"> Save Your Spot </Button>
+              <Button className="btn" variant="danger" size="lg"> Save Your Spot </Button>
             </div>
 
           </Col>

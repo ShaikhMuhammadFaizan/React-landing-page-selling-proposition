@@ -10,6 +10,8 @@
 
 .unique-selling-area-elements{
     flex-direction: column;
+    width: 30%;
+    margin-top: 5%;
 }
 
 .time-duration-area{
@@ -26,6 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 3%;
 }
 
 .number-type{
@@ -35,8 +38,10 @@
 
 .join-webinar-area-elements{
     background-color: #ffffff;
-    padding: 3%;
+    padding: 4% 7% 10% 7%;
     color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .join-webinar-text{
@@ -46,4 +51,46 @@
 
 .join-webinar-text-extended{
     font-weight: 400;
+}
+
+.join-webinar-form{
+    text-align: center;
+    font-size: 10px;
+}
+.join-webinar-form-input{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.register-btn{
+    margin-top: 2%;
+    padding: 7% 17% 7% 17% !important;
+}
+
+.join-webinar-form-checkbox{
+    margin-top: 5px;
+}
+
+.join-webinar-form-checkbox label{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .unique-selling-area-elements{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .unique-selling-area-elements{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .unique-selling-area-elements{
+        width: 90%;
+    }
 }

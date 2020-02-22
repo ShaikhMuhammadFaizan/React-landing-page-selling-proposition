@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Col, Image, Row, } from 'react-bootstrap';
+import { Container, Col, Image, Row, Form, Button } from 'react-bootstrap';
 
 import './UniqueSelling.css';
 
@@ -21,6 +21,22 @@ class UniqueSelling extends Component {
                     </div>
                     <div className="join-webinar-area-elements">
                         <p className="join-webinar-text">Join <span className="join-webinar-text-extended"> the webinar today</span></p>
+                        <Form className="join-webinar-form">
+                            <Form.Control type="text" placeholder="Name" className="join-webinar-form-input" />
+                            <Form.Control type="email" placeholder="Email" className="join-webinar-form-input" />
+                            <Form.Control type="text" placeholder="Company Name" className="join-webinar-form-input" />
+                            <Form.Control as="select" className="join-webinar-form-input" placeholder="Budget">
+                                <option selected> Budget</option>
+                                <option>...</option>
+                                <option>...</option>
+                                <option>...</option>
+                            </Form.Control>
+                            <div class="custom-control custom-checkbox join-webinar-form-checkbox d-flex justify-content-start align-items-center">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1" />
+                                <label class="custom-control-label" for="customCheck1">Subscribe</label>
+                            </div>
+                            <Button className="btn register-btn" variant="danger" size="lg"> Register Now </Button>
+                        </Form>
                     </div>
                 </div>
             </Container>

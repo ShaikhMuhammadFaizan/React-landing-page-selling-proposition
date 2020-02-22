@@ -36,20 +36,6 @@
     margin: 3% 0% 3% 0%;
 }
 
-.see-your-spot-btn{
-    background-color: #6013c5 !important;
-    padding: 2.5% 7% 2.5% 7%;
-    border: none;
-    font-size: 12px;
-    font-weight: 700;
-    box-shadow: 13px 15px 37px -7px rgba(0,0,0,0.80);
-}
-
-.see-your-spot-btn:hover{
-    background-color: #5113ae !important;
-    box-shadow: 13px 15px 37px -7px rgba(0,0,0,0.99);
-}
-
 @media only screen and (max-width: 750px) {
     .video-info{
         width: 70%;
