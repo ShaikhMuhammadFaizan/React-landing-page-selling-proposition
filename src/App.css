@@ -29,8 +29,9 @@
 }
 
 .main-bg{
-  background-image: url('./Assets/bg.jpg');
+  background-image: url('./Assets/bg7.jpg');
   flex-direction: column;
+  padding-bottom: 6%;
 }
 
 .small-company-name{
